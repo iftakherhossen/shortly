@@ -48,7 +48,7 @@ const Home = () => {
                          <Grid
                               templateColumns={responsive}                              
                               templateRows={responsive}
-                              mb='150'
+                              mb='150'                             
                          >
                               <GridItem colSpan={colSpan}>
                                    <InputGroup>
@@ -72,7 +72,7 @@ const Home = () => {
                               <GridItem w='100%' ml={ml}>
                                    <Button bg='#61dafb' color='#282c34' onClick={() => handleShort(url)} disabled={url === ''}  style={{ fontFamily: 'Ibarra Real Nova, serif' }}>Short</Button>
                               </GridItem>
-                         </Grid>
+                         </Grid>                       
                     </Square>
                </Flex>
 
